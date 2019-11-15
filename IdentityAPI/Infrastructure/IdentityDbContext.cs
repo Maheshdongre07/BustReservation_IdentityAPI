@@ -15,5 +15,7 @@ namespace IdentityAPI.Infrastructure
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<BusInfo> BusInfo { get; set; }
     }
 }
